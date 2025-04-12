@@ -1,5 +1,6 @@
 # Taller-RabitMQ
-
+--David SAntiago Cubillos Méndez
+--Carlos Hernando Lozano Perez
 Diagrama de arquitectura
 (haz click para ver en HD en una nueva pestaña)
 ![SADSADASDSA](https://github.com/user-attachments/assets/567a56e0-d125-4cd1-870d-369d4dceb04a)
@@ -7,30 +8,55 @@ Diagrama de arquitectura
 
 Para correlo ejecutamos el comando en la ruta que aparece en la iamgen 
 docker-compose up --build -d   
-![image](https://github.com/user-attachments/assets/82ab9501-e188-47f1-a7cd-64e1cfb0ad98)
+![image](https://github.com/user-attachments/assets/d1e56e0a-b015-49c9-b72f-be3e46d5a193)
 
-y despues vamos a la siguente ruta del navegador apra verificar que esta corrriendo 
+despues vamos a ver si estan corriendo nuestros contenedores con el comando 
+docker-compose ps
 
-![image](https://github.com/user-attachments/assets/9baf1eae-6a72-4372-aa3b-de7ca3b85cad)
+![image](https://github.com/user-attachments/assets/6138db2a-02d5-446e-b981-5a6881dfec2a)
+
+en en la ruta 
+http://localhost:8080/dashboard/#/
+
+verems que estan corriendo 
+
+![image](https://github.com/user-attachments/assets/d49082ae-2630-4383-b2d0-069abf9e2a22)
+
+![image](https://github.com/user-attachments/assets/01e80205-9b3e-4650-a6c8-bfa5961a1496)
+
+ahora ingresamos en otra ruta a nuestro rabbit 
+
+http://localhost:15672/#/
+
+el usuario es admin y la clave admin
+
+![image](https://github.com/user-attachments/assets/4cc0d5f9-15eb-4664-ab1a-abfe5177f899)
+
+podemos entrar a cualquira de nuestros clientes 
+ http://localhost/cliente/uno   o  http://localhost/cliente/dos  
+
+ Cada vez que se refresque la pagina es una peticcion 
+ para saber si esta pues en el terminal escibimos el siguiente comando 
+
+ docker logs tallerrabbitmq-analytics-app-1 -f
+
+como vemos cada vez que se reflesque a la izquierda va recibir la peticcion 
+
+![image](https://github.com/user-attachments/assets/2b1651d1-3f14-4979-a7c3-88716f09604d)
+
+
+y tambien en la pagina de Rabbit veremso la grafica del mensaje 
+
+![image](https://github.com/user-attachments/assets/1b3e7c2b-75b2-455c-920a-1dddd45cd6b7)
+
+y adicionalmente en el monitor de ruta 
+
+http://localhost/monitor
+
+veremos la peticiones 
+
+![image](https://github.com/user-attachments/assets/8de6d64d-295c-4c2b-9242-87c52d8eb92e)
 
 
 
-para este punto ○ servicio-cliente-X (mínimo 2 instancias):
-
-como vemos los cliente entran con la siguiente ruta 
-
- cliente 1 ![image](https://github.com/user-attachments/assets/ecdd644e-f85c-4887-b8e4-8e0e223abb3f)
-
- cliente 2 ![image](https://github.com/user-attachments/assets/9b2b6cf7-5e4a-4ab9-8637-a36689efce80)
-
-y su heder esta aqui 
-
-
-![image](https://github.com/user-attachments/assets/ae684b11-3d1b-4db1-a1ff-bc7fe089f88f)
-
-
-tambien cuanta con autenticaccion 
-user: admin
-clave : 123
-
-![image](https://github.com/user-attachments/assets/59e32d17-094b-40a4-bdc5-bfc6869779fb)
+ 
