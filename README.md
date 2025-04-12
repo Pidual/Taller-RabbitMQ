@@ -1,5 +1,5 @@
 # Taller-RabitMQ
---David Santiago Cubillos Méndez
+--David Santiago Cubillos Méndez <br>
 --Carlos Hernando Lozano Perez
 Diagrama de arquitectura
 (haz click para ver en HD en una nueva pestaña)
