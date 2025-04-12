@@ -1,4 +1,5 @@
 # Taller-RabitMQ
+(Documento de las preguntas en https://github.com/Pidual/Taller-RabbitMQ/blob/main/Documentacion%20RabbitMQ.pdf)
 --David Santiago Cubillos Méndez <br>
 --Carlos Hernando Lozano Perez<br>
 Diagrama de arquitectura
