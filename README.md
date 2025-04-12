@@ -1,5 +1,5 @@
 # Taller-RabitMQ
---David SAntiago Cubillos Méndez
+--David Santiago Cubillos Méndez
 --Carlos Hernando Lozano Perez
 Diagrama de arquitectura
 (haz click para ver en HD en una nueva pestaña)
@@ -33,20 +33,20 @@ el usuario es admin y la clave admin
 
 ![image](https://github.com/user-attachments/assets/4cc0d5f9-15eb-4664-ab1a-abfe5177f899)
 
-podemos entrar a cualquira de nuestros clientes 
+podemos entrar a cualquiera de nuestros clientes 
  http://localhost/cliente/uno   o  http://localhost/cliente/dos  
 
  Cada vez que se refresque la pagina es una peticcion 
- para saber si esta pues en el terminal escibimos el siguiente comando 
+ para saber si esta pues en el terminal ponemos el siguiente comando 
 
  docker logs tallerrabbitmq-analytics-app-1 -f
 
-como vemos cada vez que se reflesque a la izquierda va recibir la peticcion 
+como vemos cada vez que se reflesque a la izquierda va recibir la petición 
 
 ![image](https://github.com/user-attachments/assets/2b1651d1-3f14-4979-a7c3-88716f09604d)
 
 
-y tambien en la pagina de Rabbit veremso la grafica del mensaje 
+y tambien en la pagina de Rabbit veremos  la grafica del mensaje 
 
 ![image](https://github.com/user-attachments/assets/1b3e7c2b-75b2-455c-920a-1dddd45cd6b7)
 
