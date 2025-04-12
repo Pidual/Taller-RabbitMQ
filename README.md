@@ -41,7 +41,7 @@ podemos entrar a cualquiera de nuestros clientes
 
  docker logs tallerrabbitmq-analytics-app-1 -f
 
-como vemos cada vez que se reflesque a la izquierda va recibir la petición 
+como vemos cada vez que se refresque a la izquierda va recibir la petición 
 
 ![image](https://github.com/user-attachments/assets/2b1651d1-3f14-4979-a7c3-88716f09604d)
 
