@@ -1,5 +1,6 @@
 # Taller-RabitMQ
 
+Diagrama de arquitectura
 (haz click para ver en HD en una nueva pestaña)
 ![SADSADASDSA](https://github.com/user-attachments/assets/567a56e0-d125-4cd1-870d-369d4dceb04a)
 
