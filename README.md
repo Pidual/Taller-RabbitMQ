@@ -3,7 +3,8 @@
 --Carlos Hernando Lozano Perez
 Diagrama de arquitectura
 (haz click para ver en HD en una nueva pestaña)
-![SADSADASDSA](https://github.com/user-attachments/assets/567a56e0-d125-4cd1-870d-369d4dceb04a)
+![SADSADASDSA (1)](https://github.com/user-attachments/assets/145c6bb3-3ccd-4aef-a178-4c7c54127f38)
+
 
 
 Para correlo ejecutamos el comando en la ruta que aparece en la iamgen 
