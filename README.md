@@ -1,5 +1,8 @@
 # Taller-RabitMQ
 
+![SADSADASDSA](https://github.com/user-attachments/assets/567a56e0-d125-4cd1-870d-369d4dceb04a)
+
+
 Para correlo ejecutamos el comando en la ruta que aparece en la iamgen 
 docker-compose up --build -d   
 ![image](https://github.com/user-attachments/assets/82ab9501-e188-47f1-a7cd-64e1cfb0ad98)
