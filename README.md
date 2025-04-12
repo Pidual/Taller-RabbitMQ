@@ -1,4 +1,4 @@
-# Parcial2
+# Taller-RabitMQ
 
 Para correlo ejecutamos el comando en la ruta que aparece en la iamgen 
 docker-compose up --build -d   
